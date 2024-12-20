@@ -5,15 +5,11 @@
 */
 int main() {
    int arr[]={2,4,6,8};// tao arr co 4 phan tu 
-//   printf("gia tri dia chi cua arr la: %d \n",&arr);
-printf("gia tri dia chi cua phan tu 3: %d ",&arr[3]);
+   //printf("gia tri dia chi cua arr la: %d \n",&arr);
+   printf("gia tri dia chi cua phan tu 3: %d ",&arr[3]);
    int *ptr;
    ptr= arr;
-//   printf("gia tri dia chi cua bien con tro ptr la %d \n",ptr);
-   
-   
-   
-
+   //printf("gia tri dia chi cua bien con tro ptr la %d \n",ptr);
   return 0;
 }
 

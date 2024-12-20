@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
 	khai bao ham kiem tra xem ki tu duoc in ra voi so lan co ton tai trong 
 	mang minh da khai bao chua
@@ -26,15 +25,11 @@ int main() {
    	 			count++;
    	 		}
    	 	}
-   	 	// in ra
    	 	printf(" %c xuat hien so lan la: %d \n",str[i],count);
    	 	checked[index]=str[i];
    	 	index++;
    	 }
-   	
    }
-  
-  
   return 0;
 }
 

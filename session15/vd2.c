@@ -8,8 +8,6 @@
   swap(&a,&b);
   printf("gia tri cua a sau= %d \n",a); // 15
   printf("gia tri cua b sau= %d \n",b); //5
-  
-  
   return 0;
  }
   swap(int *x, int *y){

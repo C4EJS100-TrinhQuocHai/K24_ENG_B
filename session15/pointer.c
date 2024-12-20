@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*
 	con tro (pointer) 
-	
 */
 int main() {
     int a=5;
@@ -12,7 +11,6 @@ int main() {
     *ptr=15;
     // gia tri cua bien a se 15;
     printf("gia tri cua bien a sau: %d",a);
-
   return 0;
 }
 
