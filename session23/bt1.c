@@ -38,14 +38,18 @@ int main() {
   			break;
   		}
   		case 2:{
-  			// them sinh vien
-  			/*
-  				B1: 	
-			  */
 			  addStudent();
   			break;
   		}
   		case 3:{
+  			// sua sinh vien
+  			/*
+  			B1: nhap ma sinh vien
+  			B2: kiem tra co ton tai sinh vien
+  				+ neu ton tai: thi cho nguoi dung nhap lai name, tuoi
+  				==> di update ==> luu lai trong file
+  			    + neu khong co : ==> hien thi khong co sinh vien!
+			  /
   			break;
   		}
   		case 4:{
@@ -75,7 +79,7 @@ void printStudent(){
 		return;
 	}
 	for(int i=0; i< numberStudent; i++){
-		printf("thong tin sinh vien thu %d",i+1);
+		printf("thong tin sinh vien thu %d \n",i+1);
 		printf("ma sv: %s \n", sv[i].id);
 		printf("ten sv: %s \n", sv[i].name);
 		printf("tuoi sv: %d \n", sv[i].age);
